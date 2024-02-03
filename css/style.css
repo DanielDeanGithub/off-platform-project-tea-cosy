@@ -9,12 +9,12 @@ body {
     font-size: 22px;
     color: seashell;
     background-color: black;
-    opacity: 0.9;
     text-align: center;
+    opacity: 0.9;
 }
 
-h2, h4 {
-    line-height: 1.8;
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.9;
 }
 
 header {
@@ -52,8 +52,11 @@ main {
     margin: 0 auto;
 }
 
-#banner-container {
+#banner div {
     background-color: black;
     width: 100%;
+}
 
+#tea-of-the-month {
+    
 }
