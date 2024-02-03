@@ -1,7 +1,7 @@
 * {
     box-sizing: content-box;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 body {
@@ -11,6 +11,10 @@ body {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+}
+
+h2, h4 {
+    line-height: 1.8;
 }
 
 header {
@@ -34,4 +38,22 @@ nav ul li {
     display: inline;
     text-decoration: underline;
     padding: 0 10px;
+}
+
+main {
+    position: relative;
+    top: 70px;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../img/img-mission-background.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#banner-container {
+    background-color: black;
+    width: 100%;
+
 }
