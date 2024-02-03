@@ -61,5 +61,33 @@ main {
 }
 
 #tea-of-the-month {
-    
+    margin: 0 auto;
+    width: 1000px;
+    padding: 50px 0;
+}
+
+#tea-of-the-month section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+#tea-of-the-month figure{
+    flex-basis: calc(100% / 3);
+    margin: 10px 0;
+}
+
+#tea-of-the-month img {
+    height: 200px;
+    width: 300px;
+}
+
+#tea-of-the-month figcaption {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+#tea-of-the-month.bottom {
+    flex: 1 5 calc(100% / 3);
 }
