@@ -88,6 +88,35 @@ main {
     font-weight: bolder;
 }
 
-#tea-of-the-month.bottom {
-    flex: 1 5 calc(100% / 3);
+#locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("../img/img-locations-background.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#locations h2 {
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+#locations section {
+    display: flex;
+}
+
+#locations .location-text {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 0 20px;
+}
+
+#locations .location-text p, #locations .location-text h3 {
+    line-height: 3;
 }
