@@ -27,6 +27,8 @@ header {
     border-bottom: 1px solid seashell;
     height: 69px;
     align-items: center;
+    background-color: black;
+    z-index: 1;
 }
 
 header img {
@@ -50,6 +52,7 @@ main {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 #banner div {
