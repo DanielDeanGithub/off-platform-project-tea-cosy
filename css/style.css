@@ -12,3 +12,15 @@ body {
     opacity: 0.9;
     text-align: center;
 }
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
