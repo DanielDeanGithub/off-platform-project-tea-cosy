@@ -1,8 +1,8 @@
+#### Objective provided by Codecademy
+
 ### WEB DEVELOPMENT FOUNDATIONS
 
 # Off-Platform Project: Tea Cozy
-
-#### Objective provided by Codecademy:
 
 In this project, you will create a fictional tea shop website on your own computer.
 
